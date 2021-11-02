@@ -1,0 +1,14 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+}
+
+.list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list__item--positive__total {
+  font-weight: 700;
+}
